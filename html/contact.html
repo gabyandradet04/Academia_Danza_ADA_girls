@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/headerFooter.css">
+	<link rel="stylesheet" type="text/css" href="../css/home.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+  <link rel="stylesheet" href="../css/contact.css">
+  <title>AdaAcademy</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <header class="row">
+        <nav class="col-lg-12 col-md-12 col-sm-12 col-xs-12 navbar">
+        <div class="navbar-header">
+          <img class="pull-left img-responsive" src="../img/150x150-navBrandAda.jpg" alt="">
+              <button type="button" class="navbar-toggle btn btn-lg pull-right" data-toggle="collapse" data-target="#myFirstNavbar" >
+              <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+          </button>
+        </div>
+            <div class="collapse navbar-collapse pull-right" id="myFirstNavbar">
+            <ul class="nav navbar-nav hidden-xs">
+                <li><a href="#">Home</a></li>
+                <li><a href="html/Nosotros.html">Nosotros</a></li>
+                <li><a href="html/talleres.html">Talleres</a></li>
+                <li><a href="html/gallery.html">Galeria</a></li>
+                <li><a href="html/contact.html">Contacto</a></li>
+            </ul>
+            <ul class="nav navbar-nav hidden-lg hidden-md  hidden-sm myTextStyleMd">
+                <li><a href="#">Home</a></li>
+                <li><a href="html/about.html">Nosotros</a></li>
+                <li><a href="html/class.html">Talleres</a></li>
+                <li><a href="html/gallery.html">Galeria</a></li>
+                <li><a href="html/contacto/contact.html">Contacto</a></li>
+            </ul>
+          </div>
+        </nav>
+    </header>
+      <div class="container withd">
+        <div class="row">
+          <div class="col md-12">
+            <h2>Consultanos tus dudas</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-10">
+            <div><label for="first_name">Nombre</label><input id="nombre" type="text" name="Nombre" class="email space"></div>
+            <div><label for="last_name">Apellido</label><input id="apellido" type="text" name="Apellido" class="email space"></div>
+            <div><label for="sice">Fecha de nacimiento</label><input id="nacimiento" type="text" name="Sice" class="email space"></div>
+            <div><label for="email space">Email</label><input id="mail" type="text" name="email space" class="email space"></div>
+            <div><label for="motiv">Motivo</label><select id="motivo" class="email space" name="Motiv">
+                <option value="consulta">Solo consulta</option>
+                <option value="inscription">Quiero inscribirme</option>
+                <option value="price">Quiero saber el costo</option>
+                <option value="more">Otra opción</option>
+            </select></div>
+            <div>
+              <label for="interest">Curso de interés</label>
+              <select id="interes" class="email space" name="interest">
+                <option value="AM">Mañana</option>
+                <option value="PM">Tarde</option>
+                <option value="PM2">Noche</option>
+            </select></div>
+              <div>
+                <label for="text">Consulta</label>
+              </div>
+              <div>
+                <textarea id="consulta" name="texto" rows="8" cols="80" placeholder="Escribir aquí..." maxlength="500" class="email"></textarea>
+              </div>
+              <div>
+                <ul id="error" class="error">
+              </ul>
+            </div>
+              <div class="center">
+                <button id="enviar" type="submit" name="Enviar" class="btn-medium">Enviar</button>
+                <button type="cancel" name="Cancelar" class="btn-medium">Cancelar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="row">
+        <div class="col-lg-5 col-md-5 col-sm-5 hidden-xs copyRight">
+                <div class="well-lg">
+                <p><img src="img/20x20-copyRight.jpg" alt="">  Ada Academy 2017</p>
+                </div>
+      </div>
+
+      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-7 net">
+        <ul class="well-lg">
+          <li><p><span class="glyphicon glyphicon-earphone"></span>  4758-5555</p></li>
+          <li><p><span class="glyphicon glyphicon-envelope"></span>  info@adaacademy.com.ar</p></li>
+          <li>
+            <ul class="list-inline">
+              <li><a href="#"><img src="img/30x30-brandYoutube.jpg" alt=""></a></li>
+              <li><a href="#"><img src="img/30x30-brandFacebook.jpg" alt=""></a></li>
+              <li><a href="#"><img src="img/30x30-brandTwitter.jpg" alt=""></a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-5  map">
+          <div class="caption text-center well-lg">
+          <p><span class="glyphicon glyphicon-map-marker"></span></p>
+          <p>Cerrito 628</p>
+          <p>Ciudad Autónoma De Buenos Aires</p>
+                  <p>República Argentina</p>
+        </div>
+      </div>
+        </footer>
+  </div>
+  <script type="text/javascript" src="../Json/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="../Json/json.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

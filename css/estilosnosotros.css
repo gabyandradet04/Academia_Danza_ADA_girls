@@ -1,0 +1,102 @@
+body{
+	font-family: 'Playfair Display', serif;
+	background: #FFFFFF;
+}
+.tituloh2{
+	font-size: 2.5em;
+}
+.tituloh3{
+	font-size: 1.8em;
+	font-weight: bold;
+}
+p{
+	font-size: 1.2em;
+}
+
+.color1{
+	background-color: #6BC5D2;
+}
+.color11{
+	background-color: #D0E5C6;
+	border: 2px solid;
+	border-color:#D0E5C6;	
+	border-radius: 25px;
+	color: white;
+}
+/*margenes parrafo*/
+.marg{ 
+	margin: 30px 50px;
+}
+
+
+main .colorletras{
+	color: black;
+	
+}
+
+.nuestrasinst{
+	border: 2px solid;
+	border-color:#D0E5C6 ;	
+	border-radius: 25px;
+	background-color: #D0E5C6;
+	color: white;
+
+}
+.letrasblanc{
+	color: white;
+}
+.profes2{
+	width: 150px;
+	height: 150px;
+	margin: 20px 20px;
+	border: 2px solid;
+	border-radius: 25px;
+	border-color:black ;
+}
+
+.contico{
+	margin-left: 50px;
+}
+
+.ic{
+	width: 150px;
+	height: 150px;
+	margin: 20px 20px;
+	border: 2px solid;
+	border-radius: 15px 50px 30px;
+	border-color: white;
+	background-color: white;	
+}
+.imgserv{
+	width: 150px;
+	height: 150px;
+	margin: 20px 20px;
+	border: 2px solid;
+	border-radius: 25px;
+	border-color:white ;
+}
+.prof{
+	width: 150px;
+	height: 150px;
+	margin: 20px 20px;
+	border: 2px solid;
+	border-radius: 25px;
+	border-color:white ;
+	background-color: #E1F5F2;
+
+}
+
+.logosredes{
+	width: 30px;
+
+
+}
+.figucap{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.anclass{
+	text-decoration: none;
+	color: #D0E5C6;
+}

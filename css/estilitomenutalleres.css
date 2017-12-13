@@ -1,0 +1,60 @@
+
+
+main p{
+	font-size: 20px;
+}
+
+/**/
+.fila{
+	margin-top:100px;
+}
+.filaA{
+	margin-top:40px;
+}
+.contenido{
+	margin-top:80px;
+
+}
+.contenidoA{
+	margin-top: 20px;
+}
+
+/*hover en el menu de talleres*/
+div.imagen{
+font-weight: 300;
+	
+-webkit-transition: all 0.5s ease;
+}
+
+div.imagen:hover{
+
+color:#5A5D9D;
+border-radius: 15px 50px;
+font-size: 15px;
+opacity:0.8;
+background-color: #D0E5C6;
+width: 300px;
+height: 200px;
+-webkit-box-shadow: 2px 2px 5px #999;
+ filter: shadow(color=#999999, direction=135, strength=2);
+}
+
+/* hover en el icono del individual*/
+div.profe1{
+	font-weight: 300;
+	
+-webkit-transition: all 0.5s ease;
+}
+
+div.profe1 img:hover{
+	color:#5A5D9D;
+border-radius: 50%;
+font-size: 15px;
+opacity:0.8;
+background-color: #6BC5D2;
+
+
+-webkit-box-shadow: 2px 2px 5px #999;
+ filter: shadow(color=#999999, direction=135, strength=2);
+
+}

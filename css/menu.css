@@ -1,0 +1,51 @@
+
+body{
+	font-family: 'Saira Extra Condensed', sans-serif;
+	background: #E1F5F2;
+}
+
+header{
+	background: linear-gradient(to right, #E1F5F2, #390050);
+
+}
+
+header img{
+	width: 70%;
+}
+
+nav{
+	padding: 40px;
+	display: flex;
+	justify-content: flex-end;
+	
+}
+
+nav a{
+	color: #E1F5F2;
+	font-size: 22px;
+}
+
+footer{
+	background: linear-gradient(to right, #E1F5F2, #390050);
+	color: #E1F5F2;
+	display: flex;
+	align-items: center;
+}
+
+footer .text{
+	color: #390050;
+}
+
+footer p{
+	font-size: 18px;
+}
+
+footer .redes a img{
+	width: 35px;
+	margin-right: 10px;
+}
+
+
+
+
+

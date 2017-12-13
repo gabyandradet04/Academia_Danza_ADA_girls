@@ -1,0 +1,32 @@
+*{
+  font-family: 'Saira Extra Condensed', sans-serif;
+}
+/*.email{
+  width: 70%;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #6BC5D2;
+  font-size: 16px;
+  margin-left: 10px;
+  padding-left: 10px;
+}*/
+label{
+  font-size: 16px;
+  font-weight: 700;
+}
+/*.space{
+  margin: 15px 10px 15px 10px;
+}*/
+.btn-medium{
+  text-align: center;
+  background-color: #6BC5D2;
+  color: #fff;
+  border-radius: 100px;
+  border: 2px solid;
+  padding: 5px 0px;
+  width: 200px;
+}
+.center{
+  display: flex;
+  justify-content: center;
+}

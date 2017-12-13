@@ -1,0 +1,265 @@
+body{
+  background:#FFFFFF;
+  font-family: 'Saira Extra Condensed', sans-serif; 
+}
+
+
+
+}
+
+main div.top{
+  margin-top: 2em;
+}
+
+
+/*--- hover teatro maipo*/
+main div#imagen {
+  width: 400px;
+  height: 300px;
+  background-image: url('../imgs/galerianiños.jpg');
+  box-shadow: 2px 2px 5px #999;
+  background-repeat: no-repeat; 
+  margin-left: 15em;
+  margin-right: 8em;
+  margin-top: 2em;
+}
+
+main div#info{
+  position: absolute;
+  overflow: hidden;
+  width: 400px;
+  height: 300px;
+  background-color: #D0E5C6;
+  -webkit-transition:opacity 0.2s;
+  opacity: 0;
+}
+
+main div#imagen:hover div#info{
+  opacity: 0.8;
+}
+
+main p#d{
+  position: absolute;
+  margin-top: 4.375em;
+  -webkit-transition:margin 0.2s;
+  margin-left: -5.375em;
+  text-align: center;
+  font-size: 1.750em;
+
+}
+main p#d a{
+  text-decoration: none;
+  color:#1E4E28;
+  box-shadow: 2px 2px 5px #999;  
+}
+
+main div#imagen:hover p#d{
+  margin-left: 5.375em;
+  margin-top: 5.500em;
+}
+
+main p#d1{
+  margin:auto;
+  width: 310px;
+  text-align: center;
+  -webkit-transition:margin 0.3s;
+  margin-top: 10.750em;
+   font-size: 1.5em;
+   color:white;
+
+}
+
+main div#imagen:hover p#d1{
+  margin-top: 9em;
+  text-shadow: 5px 5px 5px #aaa;
+
+}
+
+
+/*--- hover danza comtemporanea*/
+main div#imagen1 {
+  width:400px;
+  height:300px;
+  background-image: url('../imgs/galeriacontemporanea.jpg');
+  box-shadow: 2px 2px 5px #999;
+  background-repeat: no-repeat; 
+  margin-left: 2em;
+   margin-top: 2em;
+box-shadow: 2px 2px 5px #999;
+}
+
+main div#info1{
+  position: absolute;
+  overflow: hidden;
+  width: 400px;
+  height: 300px;
+  background-color: #D0E5C6;
+  -webkit-transition:opacity 0.2s;
+  opacity: 0;
+}
+
+main div#imagen1:hover div#info1{
+  opacity: 0.8;
+}
+main p#d2{
+  position: absolute;
+  margin-top: 4.375em;
+  -webkit-transition:margin 0.2s;
+  margin-left: -4.375em;
+  text-align: center;
+   font-size: 1.750em;
+
+}
+main p#d2 a{
+  text-decoration: none;
+  color:#1E4E28;
+  box-shadow: 2px 2px 5px #999;  
+}
+
+main div#imagen1:hover p#d2{
+ margin-left: 3.500em;
+  margin-top: 4.500em;
+}
+
+main p#d3{
+  margin:auto;
+  width: 310px;
+  text-align: center;
+   -webkit-transition:margin 0.3s;
+  margin-top: 13.750em;
+  font-size: 1.5em;
+   color:white;
+
+}
+
+main div#imagen1:hover p#d3{
+  margin-top: 7.375em;
+  text-shadow: 5px 5px 5px #aaa;
+}
+
+/*--- hover danza tango*/
+main div#imagen2 
+  {width:400px;
+  height:300px;
+  background-image: url('../imgs/galeriatango.jpg');
+  box-shadow: 2px 2px 5px #999;
+  background-repeat: no-repeat; 
+
+  margin-top: 6.250em;
+  box-shadow: 2px 2px 5px #999;
+  background-repeat: no-repeat; 
+  margin-left: 15em;}
+
+main div#tango{
+  position: absolute;
+  overflow: hidden;
+  width: 400px;
+  height: 300px;
+  background-color: #D0E5C6;
+  -webkit-transition:opacity 0.2s;
+  opacity: 0;
+}
+
+main div#imagen2:hover div#tango{
+  opacity: 0.8;
+}
+main p#titulo{
+  position: absolute;
+  margin-top: 4.375em;
+  -webkit-transition:margin 0.2s;
+  margin-left: -4.375em;
+  text-align: center;
+   font-size: 1.750em;
+
+}
+main p#titulo a{
+  text-decoration: none;
+  color:#1E4E28;
+  box-shadow: 2px 2px 5px #999;  
+}
+main div#imagen2:hover p#titulo{
+  margin-left: 6.7em;
+  margin-top: 5.250em;
+}
+
+
+main p#contenido{
+  margin:auto;
+  width: 310px;
+  text-align: center;
+   -webkit-transition:margin 0.3s;
+  margin-top: 13.750em;
+  font-size: 1.5em;
+   color:white;
+
+
+}
+
+main div#imagen2:hover p#contenido{
+  margin-top: 8.750em;
+}
+
+/*--- hover danza oriental*/
+main div#imagen3 {
+  width: :400px;
+  height:300px;
+  background-image: url('../imgs/danza-del-vientre.jpg');
+
+  background-repeat: no-repeat; 
+  margin-top: 6.250em;
+  margin-right: 2em;
+  box-shadow: 2px 2px 5px #999;
+  background-repeat: no-repeat; 
+  margin-left: 2em;
+  
+}
+
+main div#oriental{
+  position: absolute;
+  overflow: hidden;
+  width: 400px;
+  height: 300px;
+  background-color: #D0E5C6;
+  -webkit-transition:opacity 0.2s;
+  opacity: 0;
+}
+
+main div#imagen3:hover div#oriental{
+  opacity: 0.8;
+  box-shadow: 2px 2px 5px #999;
+}
+
+main p#titulo1{
+  position: absolute;
+  margin-top: 4.375em;
+  -webkit-transition:margin 0.2s;
+  margin-left: -4.375em;
+  text-align: center;
+  font-size: 1.750em;
+
+}
+main p#titulo1 a{
+  text-decoration: none;
+  color:#1E4E28;
+  box-shadow: 2px 2px 5px #999;  
+}
+main div#imagen3:hover p#titulo1{
+ margin-left: 5em;
+  margin-top: 5.75em;
+}
+
+main p#contenido1{
+  margin:auto;
+  width: 310px;
+  text-align: center;
+   -webkit-transition:margin 0.3s;
+  margin-top: 13.750em;
+  font-size: 1.5em;
+   color:white;
+
+}
+
+main div#imagen3:hover p#contenido1{
+  margin-top: 8.750em;
+}
+

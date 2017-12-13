@@ -1,0 +1,73 @@
+/*{
+	border: 1px solid black;
+}*/
+*{
+	font-family: 'Playfair Display', sans-serif;
+    color: #000000;	
+}
+
+body{
+	background:#FFFFFF;
+}
+
+
+/*******************HEADER***************************/
+header{
+    border-bottom: 0.1em solid #000000;
+}
+
+header a{
+	color: #000000;
+}
+
+header .active a{
+	color: #D0E5C6 !important;
+}
+
+header .nav>li>a:hover{
+	-webkit-box-shadow: 2px 2px 5px #4BB255;
+	border-radius: 0.5em;
+	/*background-color: #D0E5C6;*/
+	color: #D0E5C6;
+}
+
+header nav>div>ul.ulLg>li>a{
+	font-size: 1.8em;
+	margin-top: 4.4em;
+	border-bottom: 0em;
+	padding-bottom: 0.5em;
+}
+
+header #ulXs li{
+	border-bottom: 0.1em solid #D0E5C6;
+}
+
+
+/*******************FOOTER***************************/
+footer{
+    margin-top: 2em;
+	border-top: 0.1em solid #000000;
+}
+
+footer li, footer .net a{
+    list-style: none;
+    color: #000000;	
+   /* font-size: 1.1em;*/
+    /*line-height: 1.3em;*/
+}
+
+footer .map{
+	border-left: 0.1em solid #D0E5C6;
+	/*font-size: 1.1em;*/
+    line-height: 1em;
+}
+
+footer .copyRight{
+	/*font-size: 1.1em;*/
+}
+
+
+
+
+
+

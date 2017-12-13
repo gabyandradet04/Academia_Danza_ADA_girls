@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Home</title>
+	<link href="https://fonts.googleapis.com/css?family=Lora|Playfair+Display" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/home.css">
+	<link rel="stylesheet" type="text/css" href="css/headerFooter.css">
+	
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<header class="row">
+		    <nav class="col-lg-12 col-md-12 col-sm-12 col-xs-12 navbar">
+				<div class="navbar-header">
+					<img class="pull-left img-responsive hidden-lg hidden-md" src="imgs/130x130-navBrandAda.jpg" alt="">
+					<img class="pull-left img-responsive hidden-sm hidden-xs" src="imgs/170x150-navBrandAda.jpg" alt="">
+			        <button type="button" class="navbar-toggle btn btn-lg pull-right" data-toggle="collapse" data-target="#myFirstNavbar" >
+        			<span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+					</button>        
+				</div>        
+		        <div class="collapse navbar-collapse" id="myFirstNavbar">
+				    <ul class="nav navbar-nav pull-right hidden-xs ulLg">
+				        <li class="active"><a href="#">Home</a></li>
+				        <li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="html/Nosotros.html">Nosotros<span class="caret"></span></a>
+							<ul class="dropdown-menu" id="ulXs">
+								<li class="well-sm"><a href="html/Nosotros.html">Nuestra Historia</a></li>
+								<li class="well-sm"><a href="html/Nosotros.html#Nuestras Instalaciones">Nuestras Instalaciones</a></li>
+								<li class="well-sm"><a href="html/Nosotros.html#Nuestros Servicios">Nuestros Servicios</a></li>
+								<li class="well-sm"><a href="html/Nosotros.html#Nuestros Docentes">Nuestros Docentes</a></li>
+							</ul>
+						</li>
+				        <li><a href="html/talleres.html">Talleres</a></li>
+				        <li><a href="html/galeria.html">Galeria</a></li>
+				        <li><a href="html/contact.html">Contacto</a></li>
+				    </ul>
+				    <ul class="nav navbar-nav hidden-lg hidden-md hidden-sm" id="ulXs"> 
+				        <li class="active"><a href="#">Home</a></li>
+				        <li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="html/Nosotros.html">Nosotros<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="html/Nosotros.html">Nuestra Historia</a></li>
+								<li><a href="html/Nosotros.html#Nuestras Instalaciones">Nuestras Instalaciones</a></li>
+								<li><a href="html/Nosotros.html#Nuestros Servicios">Nuestros Servicios</a></li>
+								<li><a href="html/Nosotros.html#Nuestros Docentes">Nuestros Docentes</a></li>
+							</ul>
+						</li>
+				        <li><a href="html/talleres.html">Talleres</a></li>
+				        <li><a href="html/galeria.html">Galeria</a></li>
+				        <li><a href="html/contact.html">Contacto</a></li>
+				    </ul>
+			    </div>
+		    </nav>	  
+		</header>
+		
+		<main class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+	        	<section class="row well-lg">
+	        		<!--div class="col-lg-1"></div-->
+	        		<div class="col-lg-12">  
+						<div id="myCarousel" class="carousel slide" data-ride="carousel">
+						    <!-- Indicators -->
+						    <ol class="carousel-indicators">
+						      	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						      	<li data-target="#myCarousel" data-slide-to="1"></li>
+						      	<li data-target="#myCarousel" data-slide-to="2"></li>
+						    </ol>
+	
+					    <!-- Wrapper for slides -->
+						    <div class="carousel-inner">
+                                <div class="item active">
+						        	<img src="imgs/1200x500-homeStudio01.jpg" alt="Studio 01"">
+						        	<div class="carousel-caption textSlider">
+							            <h5>La gente me ha preguntado porque he elegido ser bailarina. Yo no lo elegí. Fuí elegida para ser  bailarina, y con ello, vives toda tu vida.<h5>
+						                <h5 class="text-right">-Marta Graham</h5>
+							        </div>
+						      	</div>
+
+		                        <div class="item">
+						        	<img src="imgs/1200x500-homeStudio02.jpg" alt="Studio 02">
+						        	<div class="carousel-caption textSlider">
+							            <h4>Salón Amarrillo<h4>
+						                <h5>Piso sólido de madera</h5>
+							        </div>
+						       	</div>
+		
+						      	<div class="item">
+						        	<img src="imgs/1200x500-homeStudio03.jpg" alt="Studio 03"">
+						        	<div class="carousel-caption textSlider">
+							            <h4>Salón Azul<h4>
+						                <h5>Piso sólido de porcelanato</h5>
+							        </div>
+						      	</div>
+						    </div>
+	
+					    <!-- Left and right controls -->
+						    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+						      	<span class="glyphicon glyphicon-chevron-left"></span>
+						      	<span class="sr-only">Previous</span>
+						    </a>
+						    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+						      	<span class="glyphicon glyphicon-chevron-right"></span>
+						      	<span class="sr-only">Next</span>
+						    </a>
+					  	</div> 
+	        		</div>				  
+	        	    <!--div class="col-lg-1"></div-->
+	        	</section>    
+	        	
+	        	<section class="row">
+	        		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+	        			<h1 class="text-center">Nuestros servicios</h1>
+	        		</div>
+	        		<article class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+	                	<div class="well-lg">
+		                	<img class="img-responsive img-rounded" src="imgs/300x200-homeContemporaryDance.jpg" alt="Contemporary Dance">
+		        	        <div class="caption text-justify">
+		        				<h5 class="text-center">Talleres</h5>
+		        				<p class="hidden-sm hidden-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+		        				<a class="btn btn-block btn-sm" role="button" href="html/about.html"> Ver más...</a>
+		        			</div>
+	        			</div> 	
+	        		</article>
+
+	        		<article class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+	                	<div class="well-lg">
+		                	<img class="img-responsive img-rounded" src="imgs/300x200-homeClass.jpg" alt="Class">
+		        	        <div class="caption text-justify">
+		        				<h5 class="text-center">Clases</h5>
+		        				<p class="hidden-sm hidden-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+		        				<a class="btn btn-block btn-sm" role="button" href="html/about.html"> Ver más...</a>
+		        			</div> 	
+	        			</div>
+	        		</article>
+
+	        		<article class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+	                	<div class="well-lg">
+		                	<img class="img-responsive img-rounded" src="imgs/300x200-homeStudioRental.jpg" alt="Studio Rental">	    
+		                	<div class="caption text-justify">
+		        				<h5 class="text-center">Alquiler</h5>
+		        				<p class="hidden-sm hidden-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+		        				<a class="btn btn-block btn-sm" role="button" href="html/about.html"> Ver más...</a>
+		        			</div>
+	        			</div> 	
+	        		</article>
+
+	        		<article class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+	                	<div class="well-lg">
+		                	<img class="img-responsive img-rounded" src="imgs/300x200-homeEquipment.jpg" alt="Home Equipment">	    
+		                	<div class="caption text-justify">
+		        				<h5 class="text-center">Equipamiento</h5>
+		        				<p class="hidden-sm hidden-xs">Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+		        				<a class="btn btn-block btn-sm" role="button" href="html/about.html"> Ver más...</a>
+		        			</div>
+	        			</div> 	
+	        		</article>
+	        	</section>
+	        </div>
+		</main>
+		
+		<footer class="row">
+		    <div class="col-lg-5 col-md-5 col-sm-5 hidden-xs copyRight">	
+                <div class="well-lg">
+                <p><img src="imgs/20x20-copyRight.jpg" alt="">  Ada Academy 2017</p>
+                </div>
+			</div>
+
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-7 net">
+				<ul class="well-lg">
+					<li><p><span class="glyphicon glyphicon-earphone"></span>  4758-5555</p></li>
+					<li><p><span class="glyphicon glyphicon-envelope"></span>  info@adaacademy.com.ar</p></li>
+					<li>
+						<ul class="list-inline">
+							<li><a href="#"><img src="imgs/30x30-brandYoutube.jpg" alt=""></a></li>
+							<li><a href="#"><img src="imgs/30x30-brandFacebook.jpg" alt=""></a></li>
+							<li><a href="#"><img src="imgs/30x30-brandTwitter.jpg" alt=""></a></li>
+						</ul>
+					</li>
+				</ul>					
+			</div>
+
+			<div class="col-lg-3 col-md-3 col-sm-3 col-xs-5  map">
+			    <div class="caption text-center well-lg">
+					<p><span class="glyphicon glyphicon-map-marker"></span></p>
+					<p>Cerrito 628</p>
+					<p>Ciudad Autónoma De Buenos Aires</p>
+	                <p>República Argentina</p>
+				</div>
+			</div>
+        </footer>
+	</div>
+</body>
+</html>
